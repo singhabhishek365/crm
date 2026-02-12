@@ -158,6 +158,7 @@ import CalendarIcon from '@/components/Icons/CalendarIcon.vue'
 import PhoneIcon from '@/components/Icons/PhoneIcon.vue'
 import CollapseSidebar from '@/components/Icons/CollapseSidebar.vue'
 import NotificationsIcon from '@/components/Icons/NotificationsIcon.vue'
+import LucideDatabase from '~icons/lucide/database'
 import HelpIcon from '@/components/Icons/HelpIcon.vue'
 import SidebarLink from '@/components/SidebarLink.vue'
 import Notifications from '@/components/Notifications.vue'
@@ -207,6 +208,11 @@ const links = [
     icon: LeadsIcon,
     to: 'Leads',
   },
+  {
+    label: 'Lead Source',            
+    icon: LucideDatabase,           
+    to: 'Lead Source',               
+  },   
   {
     label: 'Deals',
     icon: DealsIcon,
