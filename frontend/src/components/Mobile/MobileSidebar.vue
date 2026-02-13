@@ -108,6 +108,8 @@ import { createResource } from 'frappe-ui'
 import { TrialBanner } from 'frappe-ui/frappe'
 import { computed, h, provide } from 'vue'
 import { mobileSidebarOpened as sidebarOpened } from '@/composables/settings'
+import LucideDatabase from '~icons/lucide/database'
+
 
 const { getPinnedViews, getPublicViews } = viewsStore()
 
@@ -117,6 +119,11 @@ const links = [
     icon: LeadsIcon,
     to: 'Leads',
   },
+   {
+    label: 'Lead Source',            
+    icon: LucideDatabase,           
+    to: 'Lead Source',               
+  },   
   {
     label: 'Deals',
     icon: DealsIcon,
